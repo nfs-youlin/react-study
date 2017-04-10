@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lzl525898/react-demo.git"
+    "url": "git+https://github.com/lzl525898/react-study.git"
   },
   "keywords": [
     "demo"
@@ -16,9 +16,9 @@
   "author": "lzl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lzl525898/react-demo/issues"
+    "url": "https://github.com/lzl525898/react-study/issues"
   },
-  "homepage": "https://github.com/lzl525898/react-demo#readme",
+  "homepage": "https://github.com/lzl525898/react-study#readme",
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
