@@ -18,7 +18,7 @@ const config = {
      //下面是添加css
      {
        test: /\.css?$/,
-       loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]'
+       loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]'
      },
    ]
   },

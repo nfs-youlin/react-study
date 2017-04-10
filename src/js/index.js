@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-
+import cssStyle  from '../css/body.css';
 export default class Index extends Component {
     constructor(props){
       super(props);
@@ -23,7 +23,10 @@ export default class Index extends Component {
             }
         };
         return (
-          <div style = {styles.contexts} onClick={this.onClickWithDiv.bind(this)}> Welcome to React! </div>
+          <div>
+            <div style = {styles.contexts} onClick={this.onClickWithDiv.bind(this)}> Welcome to React! </div>
+            <div className={this.state.isClick ? cssStyle.maxHighLight : cssStyle.mixHighLight} onClick={this.onClickWithDiv.bind(this)}> Welcome to React! </div>
+          </div>
         )
     }
 }
